@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("Fonts/Poppins-Regular.ttf") , url("Fonts/Poppins-Bold.ttf"), url("Fonts/Poppins-BoldItalic.ttf");
+
+}
+
+@font-face {
+    font-family: "Montserrat Alternates"; 
+    src: url("Fonts/MontserratAlternates-BoldItalic.ttf");
+    
+}
+
+:root {
+    --principal-color:#001233;
+    --backcolor2:#0077B6;
+    --second-color: #03A9F4;
+    --border-color: #BDBDBD;
+    --secondary-text-color: #757575;
+    --fuente1:century gothic;
+    --fuente2:"Poppins";
+    --fuente3:"Montserrat Alternates";
+}
+
+body {
+    font-family: century gothic, sans-serif, white;
+    background-color: var(--second-color);
+}
+
+.navbar {
+    background-color: var(--principal-color);
+}
+
+.navbar-logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 80px;
+}
+
+.navbar-logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.Carrito {
+    padding-left:80px;
+    vertical-align: middle;
+    position: center;
+}
+
+.nav-icon {
+    display: inline-block;
+    width: 25px;
+}
+
+.nav-icon img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.titulo {
+    padding-top: 30px;
+    padding-right: 5px;
+    font-family: var(--fuente2);
+    text-shadow: -2px 2px 2px white;
+}
+
+.secundarios {
+    padding-top: 30px;
+    font-family: var(--fuente1);
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: -2px 2px 1px white;
+}
+
+.padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiero {
+    margin-top: 30px;
+    background:var(--border-color);
+    font-family: var(--fuente2);
+    font-size: 30px;
+    color: white;
+    box-shadow: 3px 3px #001233;
+    text-shadow: 3px 3px #001233;
+}
+
+.quiero:hover {
+    background:var(--backcolor2);
+}
+
+.articulos {
+    width: 1250px;
+    background-color: white;    
+}
+
+.card {
+    box-shadow:var(--principal-color) 2px 2px 2px 1px;
+}
+
+.card h3 {
+    font-size: 16px;
+}
+
+.card:hover {
+    box-shadow:var(--secondary-text-color) 2px 2px 2px 1px;
+}
+
+.titulo2 {
+    padding-top: 10px;
+    padding-left: 5px;
+    font-family: var(--fuente2);
+    text-shadow: -2px 2px 2px white;
+}
+
+.Contacto {
+    list-style: none;
+}
+
+.Final {
+    background: #001233;
+    color: white;
+}
